@@ -40,7 +40,7 @@ O projeto propõe o desenvolvimento de uma plataforma online que visa atender a 
  - Clientes podem pesquisar serviços com base em critérios como categoria, localização e avaliações.
  - Prestadores de serviços podem listar os serviços que oferecem, incluindo descrições, preços e disponibilidade.
  - Cada freelancer deverá ser devidamente autenticado pelo admnistrador por quesitos de segurança.
- - O freelancer lista o serviço que será prestado, adotando uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço.
+ - O freelancer lista o serviço que será oferecido, adotando uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço.
  - O sistema não deve permitir que o cliente agende dois ou mais serviços no mesma data.
  - O sistema não deve permitir que o mesmo profissional seja requisitado por dois clientes na mesma data.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
