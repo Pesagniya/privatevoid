@@ -24,7 +24,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 
 ## Dores Resolvidas
 
-1. *Dificuldade em Encontrar Serviços ou Profissionais Confiáveis*: Muitos consumidores e empresas de pequeno porte enfrentam dificuldades para encontrar freelancers competentes, disponíveis a um preço acessível. A plataforma resolverá esse problema, oferecendo acesso a uma rede de profissionais avaliados pelos clientes e com baixa experiência profissional.
+1. *Dificuldade em Encontrar Serviços ou Profissionais Confiáveis*: Muitos consumidores e empresas de pequeno porte enfrentam dificuldades para encontrar freelancers competentes. A plataforma resolverá esse problema, oferecendo acesso a uma rede de profissionais avaliados pelos clientes e disponíveis a um preço acessível.
 
 2. *Inicialização no mercado*: A plataforma oferece um meio de aumentar o repertório pessoal dos novos programadores com projetos derivados de problemas reais.
 
@@ -51,8 +51,8 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Clientes podem pesquisar serviços com base em critérios como avaliações, linguagens de programação ou preço.
  - O cliente publicam o projeto, descrevendo as suas necessidades e orçamento estimado.
  - O freelancer lista uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço. Ele pode demonstrar interesse nos projetos publicados pelos clientes.
- - Após a escolha do freelancer apropriado, a transação será registrada no sistema. Uma quantia parcial será retida pela plataforma para o pagamento do freelancer.
- - O sistema não deve permitir que o mesmo profissional seja requisitado por dois clientes ao mesmo tempo.
+ - Após a escolha do freelancer apropriado, a transação será registrada no sistema e o freelancer será notificado para confirmar os termos do projeto.
+ - Caso o procedimento continue, uma quantia parcial será retida pela plataforma para o pagamento do freelancer.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
  - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar os danos e reembolsos envolvidos.
  - Após a conclusão do serviço, o cliente tem a opção de avaliar a qualidade do produto entregue e enviar um feedback comentado para o freelancer.
@@ -78,12 +78,14 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
   - Permite avaliar e deixar comentários sobre os serviços prestados.
   - Permite trocar mensagens com os freelancers para esclarecimento de dúvidas.
   - Permite atualizar dados específicos de seu próprio perfil, incluindo informações pessoais e preferências.
+  - Permite denunciar usuários de conduta inadequada ou fraudes.
     
 - Freelancer:
   - Permite listar as suas habilidades técnicas, incluindo detalhes, preços e disponibilidade.
   - Permite visualizar solicitações de projetos e confirmar ou rejeitar tais solicitações.
   - Permite trocar mensagens com os clientes para esclarecimento de dúvidas e detalhes do serviço.
   - Permite atualizar dados específicos seu próprio perfil, incluindo o seu portfólio.
+  - Permite denunciar usuários de conduta inadequada ou fraudes.
 
 - Administrador:
   - Permite gerenciar as categorias de serviços.
