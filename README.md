@@ -14,7 +14,7 @@ Para clientes que buscam serviços de programação, a plataforma oferece um pro
 
 Para os freelancers, a plataforma oferece uma forma de comercializar suas habilidades e filtrar solicitações de acordo com os parâmetros especificados. Eles podem personalizar e publicar perfis pessoais, com breves descrições e outras informações pertinentes de interesse do cliente. Após a finalização de um projeto e a avaliação do cliente, os freelancers receberão um pequeno feedback com as insatisfações e qualidades entregue no pedido.
 
-A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente. Além disso, será implementado uma meio para o processamento seguro de pagamentos, garantindo que a remuneração justa para freelancers e um sistema de pagamento confiável para os clientes.
+A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente. Além disso, será implementado uma meio para o processamento seguro de pagamentos, garantindo a remuneração justa para freelancers e um sistema de pagamento confiável para os clientes.
 
 ## Público-Alvo
 
@@ -51,8 +51,8 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Clientes podem pesquisar serviços com base em critérios como avaliações, linguagens de programação ou preço.
  - O cliente publicam o projeto, descrevendo as suas necessidades e orçamento estimado.
  - O freelancer lista uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço. Ele pode demonstrar interesse nos projetos publicados pelos clientes.
- - Após a escolha do freelancer apropriado, a transação será registrada no sistema e o freelancer será notificado para confirmar os termos do projeto.
- - Caso o procedimento continue, uma quantia parcial será retida pela plataforma para o pagamento do freelancer.
+ - Após a escolha do freelancer apropriado, o freelancer será notificado para confirmar os termos do projeto.
+ - Caso o procedimento continue, uma quantia parcial será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
  - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar os danos e reembolsos envolvidos.
  - Após a conclusão do serviço, o cliente tem a opção de avaliar a qualidade do produto entregue e enviar um feedback comentado para o freelancer.
