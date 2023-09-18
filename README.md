@@ -61,7 +61,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 
  - Manutenção do tipo de projeto (mobile, frontend, backend).
  - Manutenção de clientes: Nome, telefone, e-mail, empresa afiliada (opcional) e data de nascimento.
- - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, habilidades técnicas e portfólio.
+ - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, habilidades técnica, portfólio e salário por hora.
  - Manutenção da disponilidade do profissional.
     - O freelancer será automaticamente desativado pelo sistema, caso não seja detectado atividade na conta em um período de 1 ano.
     - Os usuários tem a opção de desativar a sua conta manualmente, desde que não estejam ativos em um projeto atual.
