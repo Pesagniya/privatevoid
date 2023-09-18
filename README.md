@@ -1,6 +1,7 @@
 # Nome do Projeto
 
 (placebo)
+definir pagamento partes do projeto? prototipo
 
 ## Tecnologias
 
