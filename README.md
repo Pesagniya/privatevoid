@@ -78,17 +78,16 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
   - Permite avaliar e deixar comentários sobre os serviços prestados.
   - Permite trocar mensagens com os freelancers para esclarecimento de dúvidas.
   - Permite atualizar dados específicos de seu perfil, incluindo informações pessoais e preferências.
-  - Permite denunciar usuários por conduta inadequada ou fraudes.
     
 - Freelancer:
   - Permite listar as suas habilidades técnicas, incluindo detalhes, preços e disponibilidade.
   - Permite visualizar solicitações de projetos e confirmar ou rejeitar tais solicitações.
+  - Permite gerenciar seus projetos.
   - Permite trocar mensagens com os clientes para esclarecimento de dúvidas e detalhes do serviço.
   - Permite atualizar dados específicos seu próprio perfil, incluindo o seu portfólio.
-  - Permite denunciar usuários por conduta inadequada ou fraudes.
 
 - Administrador:
-  - Permite gerenciar as categorias de serviços.
+  - Permite gerenciar as categorias de especialização.
   - Permite adicionar, editar ou remover informações de profissionais.
   - Permite acesso a ferramentas de moderação e gerenciamento de conteúdo.
   - Permite mediar a relação entre o cliente e freelancer, caso requisitado.
