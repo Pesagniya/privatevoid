@@ -64,7 +64,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, habilidades técnicas e portfólio.
  - Manutenção da disponilidade do profissional.
     - O freelancer será automaticamente desativado pelo sistema, caso não seja detectado atividade na conta em um período de 1 ano.
-    - O freelancer tem a opção de desativar a sua conta voluntariamente, desde que ele não esteja ativo en nenhum projeto atual.
+    - Os usuários tem a opção de desativar a sua conta manualmente, desde que não estejam ativos em um projeto atual.
  - O projeto deverá ter: cliente, proposta de software, categoria, linguagem utilizada, comentários, orçamento e estimativa de entrega.
     -  É necessário que o freelancer confirme o interesse no projeto dentro de 7 dias após a solicitação do cliente.
  - Listar o histórico de projetos de um cliente.
@@ -73,19 +73,19 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 
 - Cliente:
   - Permite buscar e visualizar serviços oferecidos pelos freelancers.
-  - Permite agendar serviços com freelancers disponíveis.
+  - Permite solicitar serviços de freelancers disponíveis.
   - Permite visualizar e gerenciar seus projetos.
   - Permite avaliar e deixar comentários sobre os serviços prestados.
   - Permite trocar mensagens com os freelancers para esclarecimento de dúvidas.
-  - Permite atualizar dados específicos de seu próprio perfil, incluindo informações pessoais e preferências.
-  - Permite denunciar usuários de conduta inadequada ou fraudes.
+  - Permite atualizar dados específicos de seu perfil, incluindo informações pessoais e preferências.
+  - Permite denunciar usuários por conduta inadequada ou fraudes.
     
 - Freelancer:
   - Permite listar as suas habilidades técnicas, incluindo detalhes, preços e disponibilidade.
   - Permite visualizar solicitações de projetos e confirmar ou rejeitar tais solicitações.
   - Permite trocar mensagens com os clientes para esclarecimento de dúvidas e detalhes do serviço.
   - Permite atualizar dados específicos seu próprio perfil, incluindo o seu portfólio.
-  - Permite denunciar usuários de conduta inadequada ou fraudes.
+  - Permite denunciar usuários por conduta inadequada ou fraudes.
 
 - Administrador:
   - Permite gerenciar as categorias de serviços.
