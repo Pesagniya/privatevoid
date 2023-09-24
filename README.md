@@ -56,15 +56,16 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Caso o procedimento continue, uma quantia parcial será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
  - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar os danos e reembolsos envolvidos.
- - Após a conclusão do serviço, o cliente tem a opção de avaliar a qualidade do produto entregue e enviar um feedback comentado para o freelancer.
+ - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso haja interesse, o cliente tem a opção de enviar um feedback para a exposição do portfólio do freelancer.
    
 ## Observações:
 
- - Manutenção do tipo de projeto (mobile, frontend, backend).
+ - Manutenção do tipo de projeto (mobile, frontend, backend) e tecnologia associada (PHP, C# etc.).
  - Manutenção de clientes: Nome, telefone, e-mail, empresa afiliada (opcional) e data de nascimento.
- - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, habilidades técnica, portfólio e salário por hora.
+ - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, habilidades técnicas, portfólio e salário por hora.
+ - O perfil do freelancer deverá ter: nome, avaliações, preço por hora, habilidades, breve descrição e portfólio de projetos.
  - Manutenção da disponilidade do profissional.
-    - O freelancer será automaticamente desativado pelo sistema, caso não seja detectado atividade na conta em um período de 1 ano.
+    - O freelancer, caso não produza atividade na conta em um período de 1 ano, será desativado pelo sistema para facilitar a navegação do site.
     - Os usuários tem a opção de desativar a sua conta manualmente, desde que não estejam ativos em um projeto atual.
  - O projeto deverá ter: cliente, proposta de software, categoria, linguagem utilizada, comentários, orçamento e estimativa de entrega.
     -  É necessário que o freelancer confirme o interesse no projeto dentro de 7 dias após a solicitação do cliente.
