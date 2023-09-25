@@ -56,7 +56,8 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Caso o procedimento continue, uma quantia parcial será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
  - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar os danos e reembolsos envolvidos.
- - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso haja interesse, o cliente tem a opção de enviar um feedback para a exposição do portfólio do freelancer.
+ - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso haja interesse, o cliente tem a opção de enviar um feedback para a exposição no perfil do freelancer.
+ - Os projetos finalizados serão listados automaticamente bo portfólio do freelancer.
    
 ## Observações:
 
