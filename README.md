@@ -1,12 +1,13 @@
 # Nome do Projeto
 
-(placebo)
-definir pagamento partes do projeto? prototipo
-checar adm nec
+privatevoid
 
 ## Tecnologias
 
-A ser definido.
+* Python
+* JavaScript
+* HTML/CSS
+* Django
 
 ## Resumo do Projeto
 
@@ -16,13 +17,13 @@ Para clientes que buscam serviços de programação, a plataforma oferece um pro
 
 Para os freelancers, a plataforma oferece uma forma de comercializar suas habilidades e filtrar solicitações de acordo com os parâmetros especificados. Eles podem personalizar e publicar perfis pessoais, com breves descrições e outras informações pertinentes de interesse do cliente. Após a finalização de um projeto e a avaliação do cliente, os freelancers receberão um pequeno feedback com as insatisfações e qualidades entregue no pedido.
 
-A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente. Além disso, será implementado uma meio para o processamento seguro de pagamentos, garantindo a remuneração justa para freelancers e um sistema de pagamento confiável para os clientes.
+A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente. Além disso, o processamento de pagamentos será realizado por um sistema pré-pago (baseado em coins), garantindo a remuneração justa para freelancers e um sistema de pagamento confiável para os clientes.
 
 ## Público-Alvo
 
 1. *Programadores Júnior*: Este grupo inclui freelancers com diversas especializações, como Java, C#, mobile etc. Eles buscam uma plataforma que os ajude a encontrar projetos compatíveis com suas habilidades e interesses. 
 
-2. *Clientes*: Pessoas que precisam de serviços específicos, como um modelo conceitual de banco de dados ou uma página web simplificada. A plataforma facilitará o processo da busca por profissionais da área.
+2. *Clientes*: Pessoas que precisam de serviços específicos, como a sustentação de um banco de dados ou uma página web simplificada. A plataforma facilitará o processo da busca por profissionais da área.
 
 ## Dores Resolvidas
 
@@ -34,7 +35,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 
 ## Monetização
 
-1. *Taxas de Transação*: A plataforma cobrará uma pequena porcentagem fixa (5%) de cada transação concluída, custeada pelo cliente).
+1. *Taxas de Transação*: A plataforma cobrará uma porcentagem fixa (5%) de cada transação concluída.
 
 2. *Anúncios e publicidade*: Será reservado um espaço no site para anúncios patrocinados, com o intuito de cobrir o custo operacional da plataforma.
 
@@ -56,8 +57,8 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Após a escolha do freelancer apropriado, o freelancer será notificado para confirmar os termos do projeto.
  - Caso o procedimento continue, uma quantia parcial será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
- - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar os danos e reembolsos envolvidos.
- - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso haja interesse, o cliente tem a opção de enviar um feedback para a exposição no perfil do freelancer.
+ - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar a disputa quanto aos danos envolvidos.
+ - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso convenha, o cliente tem a opção de enviar um feedback para a exposição no perfil do freelancer.
  - Os projetos finalizados serão listados automaticamente bo portfólio do freelancer.
    
 ## Observações:
@@ -104,7 +105,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 # Diagramas:
 
 ### Caso de Usos:
-![Casos de Uso](https://www.plantuml.com/plantuml/png/VP3RIWCn48RlynH3xrkwq0D8APLLqGkXM7o0CJkx7Pl3aio2HNntZQRAjejN8Tzyaya_coWOfBD66Qe5n4FWPYzGSI0jx9sA1tOj1hJGeZvWGpiv6e9KLg1KEj4rNsIqDIYr3tO4xme0e8kaCQP2zs9Oen1iWtybBN446E6vdFtZrMmeQ_E-zeYEQue23queK9IiBVfQwLtDmS8MWx3c5bESh2wJcbfWDPcaErp1QaLlGgvQdps3JfE1MziQVxJaJjEAQTzxol-kElsh57rbHnZq7kuvYW_7apIxI8SDGOb2ZGzCyUITRu4gJYDlEEeknhzinL9zg6_tkhBiO3nUv_PpzBE5kq1aKiYG-NmOBuPnCHtcELTfc9naDe0MbwYO3h1YWCtKXbpLMVC9)
+![Casos de Uso](docs/usecases.png)
 
 ### Modelo Conceitual arrumar:
 ![Modelo Conceitual](http://www.plantuml.com/plantuml/png/jPF1RjGm443l-GghLvGVG0YrXAsAL4hHRZzWcio60SSJZISheEh780uL1qxSkER7SEB6yWR4hRVns3Fp_2oVUWNHeRC5EYNzOaugIo744mFUr34sTuKnpymLTsYUcwqAkNRERCeEo1xdjkW-m75gXnRtxDR5NI_emPpjoH8qgvhNe60QD5VWQ-hGAOVzaCJYlaYivu9emTKeC-u-BP-4-3zCq-u5t9Ab1XhqPZV-g1tLuCE1I_Bw8dPvEH-yPj7z-ClILBx3pnefm8xV9EHw5dF10bDl37F0nk7aUtQqp0YxhvWjWik5N0j_HENPHX_Zg28G_TJ1ykf2w6kXyM7yVeJoJiO7YFVRU0q43MSmkObA269v9g8AGSj2AwUN8HYWnSxSA5dw-jUJLppDd2KaRnDJj1P9b0xpu8rJmHRoiLi57NngcMivEu2De54DpEiQ5ZdP_jJy_G19yXkdsABywzYDJo--EdYEsDn2_McHcg6yHUSd2JD7zxXunAZOAOw_c_mnakgDEr3-1vQ_MPPtwQcB9RWlo_mtvFdiygd7b4uiHLQORnIdw9gXity0)
