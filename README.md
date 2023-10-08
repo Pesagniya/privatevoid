@@ -50,13 +50,13 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 ## Requisitos da primeira versão (MVP)
 
  - Clientes e freelancers podem se cadastrar na plataforma com informações básicas, como nome, e-mail e senha.
- - O freelancer deverá assumir seu papel como profissional para diferenciar
+ - O freelancer deverá assumir seu papel como profissional para se diferenciar do papel do cliente.
  - Usuários cadastrados no sistema passarão por um processo de verificação via e-mail ou telefone.
  - Clientes podem pesquisar serviços com base em critérios como avaliações, linguagens de programação ou preço.
  - O cliente publica o projeto, descrevendo as suas necessidades e orçamento estimado (total ou por hora).
- - O freelancer lista uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço. Ele pode demonstrar interesse nos projetos publicados pelos clientes.
+ - O sistema de pagamento utilizará moedas pré-pagas para padronizar a unidade de cotação.
+ - O freelancer publica seu perfil com uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço. Ele pode demonstrar interesse nos projetos publicados pelos clientes.
  - Após a escolha do freelancer apropriado, o freelancer será notificado para confirmar os termos do projeto.
- - O cliente deverá comprar moedas pelo sistema para padronizar a unidade da cotação.
  - Caso o procedimento continue, uma quantia parcial (garantia) será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
  - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar a disputa quanto aos danos envolvidos.
@@ -67,14 +67,13 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 
  - Manutenção do tipo de projeto (mobile, frontend, backend, dados etc.) e tecnologia associada (PHP, C# etc.).
  - Manutenção de clientes: Nome, telefone, e-mail, empresa afiliada (opcional) e data de nascimento.
- - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, habilidades técnicas, portfólio e salário por hora.
- - O perfil do freelancer deverá ter: nome, avaliações, preço por hora, habilidades, breve descrição e portfólio de projetos.
+ - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, descrição de habilidades técnicas, portfólio de projetos, preço por hora e comentários.
  - Manutenção da disponilidade do profissional.
-    - O freelancer, caso não produza atividade na conta em um período de 1 ano, será desativado pelo sistema para facilitar a navegação do site.
+    - O freelancer, caso não exercite atividade na conta em um período de 1 ano, será desativado pelo sistema para facilitar a manutenção de perfis.
     - Os usuários tem a opção de desativar a sua conta manualmente, desde que não estejam ativos em um projeto atual.
- - O projeto deverá ter: cliente, proposta de software, categoria, tecnologias utilizadas, comentários, orçamento e estimativa de entrega.
+ - O projeto deverá ter: cliente, proposta de software, categoria, tecnologias utilizadas, descrição, orçamento e estimativa de entrega.
     -  É necessário que o freelancer confirme o interesse no projeto dentro de 7 dias após a solicitação do cliente.
- - Listar o histórico de projetos de um cliente.
+ - Listar o histórico de projetos de um cliente e freelancer.
 
 ## Três perfis:
 
