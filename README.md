@@ -13,9 +13,9 @@ privatevoid
 
 O projeto propõe o desenvolvimento de uma plataforma online para freelancers, o qual visa relacionar um público-alvo composto por novos profissionais e clientes com projetos de baixa complexidade. O objetivo principal é aclimatizar estudantes da área de programação no mercado de trabalho, capacitando o aprimoramento de habilidades práticas na vida real.
 
-Para clientes que buscam serviços de programação, a plataforma oferece um processo simplificado para encontrar novos talentos. Os clientes podem publicar projetos, definir seus orçamentos e especificar seus requisitos, permitindo que freelancers apresentem propostas adaptadas às necessidades do projeto. Um sistema de avaliação irá permitir que os clientes tomem decisões informadas ao selecionar freelancers.
+Para clientes que buscam serviços de programação, a plataforma oferece um processo simplificado para encontrar novos talentos. Os clientes podem publicar projetos, definir seus orçamentos e especificar seus requisitos, permitindo que freelancers apresentem soluções adaptadas às necessidades do projeto. Um sistema de avaliação irá permitir que os clientes tomem decisões informadas ao selecionar freelancers.
 
-Para os freelancers, a plataforma oferece uma forma de comercializar suas habilidades e filtrar solicitações de acordo com os parâmetros especificados. Eles podem personalizar e publicar perfis pessoais, com breves descrições e outras informações pertinentes de interesse do cliente. Após a finalização de um projeto e a avaliação do cliente, os freelancers receberão um pequeno feedback com as insatisfações e qualidades entregue no pedido.
+Para os freelancers, a plataforma oferece uma forma de comercializar suas habilidades e filtrar solicitações de acordo com os parâmetros especificados. Eles podem personalizar e publicar perfis pessoais, com breves descrições e outras informações pertinentes de interesse do cliente. Após a finalização de um projeto, os freelancers receberão um feedback baseado na experiência do cliente.
 
 A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente. Além disso, o processamento de pagamentos será realizado por um sistema pré-pago (baseado em coins), garantindo a remuneração justa para freelancers e um sistema de pagamento confiável para os clientes.
 
@@ -50,27 +50,29 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 ## Requisitos da primeira versão (MVP)
 
  - Clientes e freelancers podem se cadastrar na plataforma com informações básicas, como nome, e-mail e senha.
+ - O freelancer deverá assumir seu papel como profissional para diferenciar
  - Usuários cadastrados no sistema passarão por um processo de verificação via e-mail ou telefone.
  - Clientes podem pesquisar serviços com base em critérios como avaliações, linguagens de programação ou preço.
- - O cliente publicam o projeto, descrevendo as suas necessidades e orçamento estimado.
+ - O cliente publica o projeto, descrevendo as suas necessidades e orçamento estimado (total ou por hora).
  - O freelancer lista uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço. Ele pode demonstrar interesse nos projetos publicados pelos clientes.
  - Após a escolha do freelancer apropriado, o freelancer será notificado para confirmar os termos do projeto.
- - Caso o procedimento continue, uma quantia parcial será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
+ - O cliente deverá comprar moedas pelo sistema para padronizar a unidade da cotação.
+ - Caso o procedimento continue, uma quantia parcial (garantia) será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
  - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar a disputa quanto aos danos envolvidos.
  - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso convenha, o cliente tem a opção de enviar um feedback para a exposição no perfil do freelancer.
- - Os projetos finalizados serão listados automaticamente bo portfólio do freelancer.
+ - Os projetos finalizados serão listados automaticamente no portfólio do freelancer.
    
 ## Observações:
 
- - Manutenção do tipo de projeto (mobile, frontend, backend) e tecnologia associada (PHP, C# etc.).
+ - Manutenção do tipo de projeto (mobile, frontend, backend, dados etc.) e tecnologia associada (PHP, C# etc.).
  - Manutenção de clientes: Nome, telefone, e-mail, empresa afiliada (opcional) e data de nascimento.
  - Manutenção de freelancers: Nome, telefone, e-mail, data de nascimento, habilidades técnicas, portfólio e salário por hora.
  - O perfil do freelancer deverá ter: nome, avaliações, preço por hora, habilidades, breve descrição e portfólio de projetos.
  - Manutenção da disponilidade do profissional.
     - O freelancer, caso não produza atividade na conta em um período de 1 ano, será desativado pelo sistema para facilitar a navegação do site.
     - Os usuários tem a opção de desativar a sua conta manualmente, desde que não estejam ativos em um projeto atual.
- - O projeto deverá ter: cliente, proposta de software, categoria, linguagem utilizada, comentários, orçamento e estimativa de entrega.
+ - O projeto deverá ter: cliente, proposta de software, categoria, tecnologias utilizadas, comentários, orçamento e estimativa de entrega.
     -  É necessário que o freelancer confirme o interesse no projeto dentro de 7 dias após a solicitação do cliente.
  - Listar o histórico de projetos de um cliente.
 
