@@ -54,7 +54,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Usuários cadastrados no sistema passarão por um processo de verificação via e-mail ou telefone.
  - Clientes podem pesquisar serviços com base em critérios como avaliações, linguagens de programação ou preço.
  - O cliente publica o projeto, descrevendo as suas necessidades e orçamento estimado (total ou por hora).
- - O sistema de pagamento utilizará moedas pré-pagas para padronizar a unidade de cotação.
+ - O sistema de pagamento utilizará coins pré-pagas para padronizar a unidade de cotação.
  - O freelancer publica seu perfil com uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço. Ele pode demonstrar interesse nos projetos publicados pelos clientes.
  - Após a escolha do freelancer apropriado, o freelancer será notificado para confirmar os termos do projeto.
  - Caso o procedimento continue, uma quantia parcial (garantia) será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
@@ -93,7 +93,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
   - Permite atualizar dados específicos seu próprio perfil, incluindo o seu portfólio.
 
 - Administrador:
-  - Permite gerenciar as categorias de especialização.
+  - Permite gerenciar os filtros sobre as categorias de especialização e tecnologias.
   - Permite adicionar, editar ou remover informações de profissionais.
   - Permite acesso a ferramentas de moderação e gerenciamento de conteúdo.
   - Permite mediar a relação entre o cliente e freelancer, caso requisitado.
@@ -108,7 +108,6 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 ### Caso de Usos:
 ![Casos de Uso](docs/usecases.png)
 
-### Modelo Conceitual arrumar:
-![Modelo Conceitual](http://www.plantuml.com/plantuml/png/jPF1RjGm443l-GghLvGVG0YrXAsAL4hHRZzWcio60SSJZISheEh780uL1qxSkER7SEB6yWR4hRVns3Fp_2oVUWNHeRC5EYNzOaugIo744mFUr34sTuKnpymLTsYUcwqAkNRERCeEo1xdjkW-m75gXnRtxDR5NI_emPpjoH8qgvhNe60QD5VWQ-hGAOVzaCJYlaYivu9emTKeC-u-BP-4-3zCq-u5t9Ab1XhqPZV-g1tLuCE1I_Bw8dPvEH-yPj7z-ClILBx3pnefm8xV9EHw5dF10bDl37F0nk7aUtQqp0YxhvWjWik5N0j_HENPHX_Zg28G_TJ1ykf2w6kXyM7yVeJoJiO7YFVRU0q43MSmkObA269v9g8AGSj2AwUN8HYWnSxSA5dw-jUJLppDd2KaRnDJj1P9b0xpu8rJmHRoiLi57NngcMivEu2De54DpEiQ5ZdP_jJy_G19yXkdsABywzYDJo--EdYEsDn2_McHcg6yHUSd2JD7zxXunAZOAOw_c_mnakgDEr3-1vQ_MPPtwQcB9RWlo_mtvFdiygd7b4uiHLQORnIdw9gXity0)
-
+### Modelo Conceitual:
+![Modelo Conceitual](docs/modeloconceitual.png)
 
