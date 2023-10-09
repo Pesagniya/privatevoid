@@ -19,6 +19,7 @@ class Client {
 
 class TechnologyType {
     type: String
+    name: String
 }
 
 
@@ -55,4 +56,5 @@ Project "0..*"   -l-     "0..1"  Client            : has ->
 Project "0..*"   -r-     "0..*"  Freelancer      : <- has
 Freelancer *-- "0..1" Profile
 Profile o--> "0..*" Rating
+Client "0..1" -r- "0..*" Rating
 @enduml
