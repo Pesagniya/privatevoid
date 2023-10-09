@@ -12,7 +12,6 @@ rectangle "Platform" {
     
     usecase "Publicate Profile" as publicateProfile
     usecase "Search Project History" as searchProjectHistory
-    usecase "Cancel Employment" as cancelEmployment
     usecase "Manifest Interest" as manifestInterest
     usecase "Confirm Participation" as confirmParticipation
     
@@ -26,11 +25,9 @@ rectangle "Platform" {
     
     freelancer --> publicateProfile
     freelancer --> searchProjectHistory
-    freelancer --> cancelEmployment
     freelancer --> manifestInterest
     
     client --> searchProjectHistory
-    client --> cancelEmployment
     client --> manifestInterest
     client --> publicateProject
     client --> rateProduct
