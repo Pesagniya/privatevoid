@@ -71,7 +71,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Manutenção da disponilidade do profissional.
     - O freelancer, caso não exercite atividade na conta em um período de 1 ano, será desativado pelo sistema para facilitar a manutenção de perfis.
     - Os usuários tem a opção de desativar a sua conta manualmente, desde que não estejam ativos em um projeto atual.
- - O projeto deverá ter: cliente, proposta de software, categoria, tecnologias utilizadas, descrição, orçamento e estimativa de entrega.
+ - O projeto deverá ter: cliente, proposta de software, categoria, tecnologias utilizadas, descrição, orçamento, estimativa de entrega e status (aberto, concluído, em desenvolvimento).
     -  É necessário que o freelancer confirme o interesse no projeto dentro de 7 dias após a solicitação do cliente.
  - Listar o histórico de projetos de um cliente e freelancer.
 
@@ -93,7 +93,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
   - Permite atualizar dados específicos seu próprio perfil, incluindo o seu portfólio.
 
 - Administrador:
-  - Permite gerenciar os filtros sobre as categorias de especialização e tecnologias.
+  - Permite gerenciar os filtros dos projetos.
   - Permite adicionar, editar ou remover informações de profissionais.
   - Permite acesso a ferramentas de moderação e gerenciamento de conteúdo.
   - Permite mediar a relação entre o cliente e freelancer, caso requisitado.
