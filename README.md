@@ -97,7 +97,6 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
   - Permite adicionar, editar ou remover informações de profissionais.
   - Permite acesso a ferramentas de moderação e gerenciamento de conteúdo.
   - Permite mediar a relação entre o cliente e freelancer, caso requisitado.
-  - Permite acessar aos dados estatísticos coletados para análise e melhorias na plataforma.
   
 ## Responsividade
 - Ter o layout correto para larguras de tela com 350px ou mais.
