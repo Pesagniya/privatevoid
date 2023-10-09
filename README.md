@@ -29,9 +29,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 
 1. *Dificuldade em Encontrar Serviços ou Profissionais Confiáveis*: Muitos consumidores e empresas de pequeno porte enfrentam dificuldades para encontrar freelancers competentes. A plataforma resolverá esse problema, oferecendo acesso a uma rede de profissionais avaliados pelos clientes e disponíveis a um preço acessível.
 
-2. *Inicialização no mercado*: A plataforma oferece um meio de aumentar o repertório pessoal dos novos programadores com projetos derivados de problemas reais.
-
-3. *Tempo Gasto em Buscas*: A plataforma economizará tempo, permitindo que os usuários encontrem rapidamente o que precisam com base em suas preferências e requisitos. 
+2. *Tempo Gasto em Buscas*: A plataforma economizará tempo, permitindo que os usuários encontrem rapidamente o que precisam com base em suas preferências e requisitos. 
 
 ## Monetização
 
