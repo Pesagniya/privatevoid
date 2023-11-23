@@ -17,7 +17,7 @@ Para clientes que buscam serviços de programação, a plataforma oferece um pro
 
 Para os freelancers, a plataforma oferece uma forma de comercializar suas habilidades e filtrar solicitações de acordo com os parâmetros especificados. Eles podem personalizar e publicar perfis pessoais, com breves descrições e outras informações pertinentes de interesse do cliente. Após a finalização de um projeto, os freelancers receberão um feedback baseado na experiência do cliente.
 
-A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente.
+A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente. Para garantir a relevância do domínio no cenário internacional, será utilizado um sistema pré-pago baseado em coins para unificar a forma de pagamento entre as partes.
 
 ## Público-Alvo
 
