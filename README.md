@@ -7,17 +7,17 @@ privatevoid
 * Python
 * JavaScript
 * HTML/CSS
-* Django
+* Bootstrap
 
 ## Resumo do Projeto
 
-O projeto propõe o desenvolvimento de uma plataforma online para freelancers, o qual visa relacionar um público-alvo composto por novos profissionais e clientes com projetos de baixa complexidade. O objetivo principal é aclimatizar estudantes da área de programação no mercado de trabalho, capacitando o aprimoramento de habilidades práticas na vida real.
+O projeto propõe o desenvolvimento de uma plataforma online para freelancers, o qual visa relacionar um público-alvo composto por profissionais na área de tecnologia e clientes com projetos de baixa e média complexidade. O objetivo principal é atender as necessidades básicas de pequenas empresas, capacitando o aprimoramento de habilidades práticas do freelancer no processo.
 
 Para clientes que buscam serviços de programação, a plataforma oferece um processo simplificado para encontrar novos talentos. Os clientes podem publicar projetos, definir seus orçamentos e especificar seus requisitos, permitindo que freelancers apresentem soluções adaptadas às necessidades do projeto. Um sistema de avaliação irá permitir que os clientes tomem decisões informadas ao selecionar freelancers.
 
 Para os freelancers, a plataforma oferece uma forma de comercializar suas habilidades e filtrar solicitações de acordo com os parâmetros especificados. Eles podem personalizar e publicar perfis pessoais, com breves descrições e outras informações pertinentes de interesse do cliente. Após a finalização de um projeto, os freelancers receberão um feedback baseado na experiência do cliente.
 
-A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente. Além disso, o processamento de pagamentos será realizado por um sistema pré-pago (baseado em coins), garantindo a remuneração justa para freelancers e um sistema de pagamento confiável para os clientes.
+A plataforma irá oferecer, entre outros recursos, um chat integrado para facilitar a comunicação e garantir o alinhamento do trabalho com a visão do cliente.
 
 ## Público-Alvo
 
