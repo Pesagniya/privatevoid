@@ -1,27 +1,33 @@
 @startuml
 abstract class User {
     id: Long
-    name: String
+    name : String
     email: String
     phone: String
+    role: CLIENT | FREELANCER | ADMIN
 }   
 
 class Freelancer {
-    active: boolean 
-    coins: integer
-    chat: Chat
+    status: boolean 
+    membership: boolean
+}
+
+class Chat {
+    id: Long
+    timestamp: localDate
+    content: String
 }
 
 class Client {
-    company: String
-    coins: integer
-    chat: Chat
+     company: String
 }
+
 
 class TechnologyType {
     type: String
     name: String
 }
+
 
 class Project {
     id: Long
@@ -30,7 +36,7 @@ class Project {
     budget: Decimal
     status: WORKING | OPEN | CLOSED
     description: String
-    ratings: List<Rating>
+
 }
 
 class Profile {
@@ -43,24 +49,19 @@ class Rating {
     comment: String
 }
 
+
 class Admin {
     permissions: List<String>
 }
 
-class Chat {
-    messages: List<String>
-}
-
-User <|-- Client
-User <|-- Freelancer
-User <|-- Admin
-
-Project o-- "0.*" TechnologyType
-Project "0..1" -l- "0..1" Client : has ->
-Project "0..*" -r- "0..1" Freelancer : <- has
+User              <|--             Client
+User              <|--             Freelancer
+User              <|--             Admin
+Project      o--  "0.*"   TechnologyType
+Project "0..*"   -l-     "0..1"  Client            : has ->
+Project "0..*"   -r-     "0..*"  Freelancer      : <- has
 Freelancer *-- "0..1" Profile
+Chat "0..*"   -l-     "0..1"  User            : has ->
 Profile o--> "0..*" Rating
-Project "0..*" -- "0..*" Rating
-Freelancer "0..1" -- "0..*" Chat
-Client "0..1" -- "0..*" Chat
+Project "0..1" -r- "0..*" Rating
 @enduml
