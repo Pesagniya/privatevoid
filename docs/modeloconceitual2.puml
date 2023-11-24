@@ -4,7 +4,6 @@ abstract class User {
     name : String
     email: String
     phone: String
-    role: CLIENT | FREELANCER | ADMIN
 }   
 
 class Freelancer {
@@ -14,7 +13,7 @@ class Freelancer {
 
 class Chat {
     id: Long
-    timestamp: localDate
+    time: timestamp
     content: String
 }
 
@@ -45,7 +44,7 @@ class Profile {
 }
 
 class Rating {
-    value: integer
+    value: Integer
     comment: String
 }
 
