@@ -4,7 +4,6 @@ privatevoid
 
 ## Tecnologias
 
-* Python
 * JavaScript
 * HTML/CSS
 * Bootstrap
@@ -33,9 +32,9 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 
 ## Monetização
 
-1. *Taxas de Transação*: A plataforma cobrará uma porcentagem fixa (5%) de cada transação concluída.
+1. *Assinaturas*: A plataforma cobrará uma quantia no valor de 29 reais para uma assinatura premium, considerando que é mais fácil de implementar no protótipo. Tanto o freelancer quanto o cliente receberão benefícios específicos sobre a compra.
 
-2. *Anúncios e publicidade*: Será reservado um espaço no site para anúncios patrocinados, com o intuito de cobrir o custo operacional da plataforma.
+3. *Anúncios e publicidade*: Será reservado um espaço no site para anúncios patrocinados, com o intuito de cobrir o custo operacional da plataforma.
 
 
 # Briefing Plataforma de Serviços
@@ -52,14 +51,13 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
  - Usuários cadastrados no sistema passarão por um processo de verificação via e-mail ou telefone.
  - Clientes podem pesquisar serviços com base em critérios como avaliações, linguagens de programação ou preço.
  - O cliente publica o projeto, descrevendo as suas necessidades e orçamento estimado (total ou por hora).
- - O sistema de pagamento utilizará coins pré-pagas para padronizar a unidade de cotação.
  - O freelancer publica seu perfil com uma breve descrição de suas habilidades e estimativas quanto ao preço do serviço. Ele pode demonstrar interesse nos projetos publicados pelos clientes.
- - Após a escolha do freelancer apropriado, o freelancer será notificado para confirmar os termos do projeto.
- - Caso o procedimento continue, uma quantia parcial (garantia) será retida pela plataforma para o pagamento do freelancer e a transação será registrada no sistema.
+ - Ambos possuem a opção de atualizar o seu status para premium e ganhar benefícios como visibilidade extra.
+ - Após a escolha do freelancer e do projeto, os envolvidos deverão discutir os termos do contrato (sem a supervisão da plataforma).
  - O sistema oferece um chat para a comunicação eficiente entre os atores envolvidos.
- - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um moderador pode ser requisitado para arbitrar a disputa quanto aos danos envolvidos.
- - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso convenha, o cliente tem a opção de enviar um feedback para a exposição no perfil do freelancer.
- - Os projetos finalizados serão listados automaticamente no portfólio do freelancer.
+ - Tanto o cliente quanto o freelancer têm a opção de cancelar o serviço. Entretanto, caso não seja realizado um acordo mútuo entre as partes, um mediador pode ser requisitado para arbitrar a disputa quanto aos danos envolvidos.
+ - Após a conclusão do serviço, o cliente avalia aspectos relacionados ao projeto, como qualidade e usabilidade do produto entregue em níveis pré-definidos. Caso convenha, o cliente tem a opção de enviar um commentário para a exposição no perfil do freelancer.
+ - Os projetos finalizados serão listados automaticamente no perfil do freelancer.
    
 ## Observações:
 
@@ -70,14 +68,12 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
     - O freelancer, caso não exercite atividade na conta em um período de 1 ano, será desativado pelo sistema para facilitar a manutenção de perfis.
     - Os usuários tem a opção de desativar a sua conta manualmente, desde que não estejam ativos em um projeto atual.
  - O projeto deverá ter: cliente, proposta de software, categoria, tecnologias utilizadas, descrição, orçamento, estimativa de entrega e status (aberto, concluído, em desenvolvimento).
-    -  É necessário que o freelancer confirme o interesse no projeto dentro de 7 dias após a solicitação do cliente.
  - Listar o histórico de projetos de um cliente e freelancer.
 
 ## Três perfis:
 
 - Cliente:
-  - Permite buscar e visualizar serviços oferecidos pelos freelancers.
-  - Permite solicitar serviços de freelancers disponíveis.
+  - Permite buscar e visualizar serviços oferecidos pelos freelancers..
   - Permite visualizar e gerenciar seus projetos.
   - Permite avaliar e deixar comentários sobre os serviços prestados.
   - Permite trocar mensagens com os freelancers para esclarecimento de dúvidas.
@@ -85,11 +81,10 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
     
 - Freelancer:
   - Permite listar as suas habilidades técnicas, incluindo detalhes, preços e disponibilidade.
-  - Permite visualizar solicitações de projetos e confirmar ou rejeitar tais solicitações.
   - Permite gerenciar seus projetos.
   - Permite trocar mensagens com os clientes para esclarecimento de dúvidas e detalhes do serviço.
-  - Permite atualizar dados específicos seu próprio perfil, incluindo o seu portfólio.
-
+  - Permite atualizar dados específicos de seu próprio perfil.
+    
 - Administrador:
   - Permite gerenciar os filtros dos projetos.
   - Permite adicionar, editar ou remover informações de profissionais.
