@@ -100,7 +100,7 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
 # Diagramas:
 
 ### Caso de Usos:
-![Casos de Uso](docs/usecase.png)
+![Casos de Uso](docs/usecases.png)
 
 ### Modelo Conceitual:
 ![Modelo Conceitual](docs/modeloconceitual.png)
