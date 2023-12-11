@@ -78,12 +78,14 @@ A plataforma irá oferecer, entre outros recursos, um chat integrado para facili
   - Permite avaliar e deixar comentários sobre os serviços prestados.
   - Permite trocar mensagens com os freelancers para esclarecimento de dúvidas.
   - Permite atualizar dados específicos de seu perfil, incluindo informações pessoais e preferências.
+  - Permite comprar uma assinatura e ganhar benefícios na plataforma.
     
 - Freelancer:
   - Permite listar as suas habilidades técnicas, incluindo detalhes, preços e disponibilidade.
   - Permite gerenciar seus projetos.
   - Permite trocar mensagens com os clientes para esclarecimento de dúvidas e detalhes do serviço.
   - Permite atualizar dados específicos de seu próprio perfil.
+  - Permite comprar uma assinatura e ganhar benefícios na plataforma.
     
 - Administrador:
   - Permite gerenciar os filtros dos projetos.
