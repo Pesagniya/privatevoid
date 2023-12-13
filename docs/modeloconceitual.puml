@@ -4,6 +4,7 @@ abstract class User {
     name : String
     email: String
     phone: String
+    photo: Image
 }   
 
 class Freelancer {
