@@ -8,7 +8,7 @@ actor Client as client
 
 rectangle "Platform" {
     usecase "Manage Category" as manageCategory
-    usecase "Mediate Dispute" as mediateDispute
+    usecase "Manage Reports" as mediateDispute
     
     usecase "Publicate Profile" as publicateProfile
     usecase "Search Project History" as searchProjectHistory
