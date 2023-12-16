@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-fv0KAgxEj5oHfojyYgm3KPqtgcG+Bwz9v1kowI2v3ceyjsHKS6R0fGDZ8g5nFzQ5" crossorigin="anonymous">
+  <title>Freelancer-Client Proposal Sidebar</title>
+  <style>
+    body {
+      padding-top: 56px; /* Adjust the top padding based on the height of your navbar */
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: -250px; /* Initial position when collapsed */
+      height: 100%;
+      width: 250px;
+      padding-top: 15px;
+      background-color: #343a40;
+      color: #fff;
+      transition: left 0.3s ease; /* Add smooth transition effect */
+    }
+
+    .sidebar.show {
+      left: 0; /* Position when expanded */
+    }
+
+    .sidebar-heading {
+      font-size: 1.2rem;
+      padding: 10px;
+    }
+
+    .list-group-item {
+      background-color: #343a40;
+      border: none;
+      color: #fff;
+    }
+
+    .list-group-item:hover {
+      background-color: #495057;
+    }
+
+    .main-content {
+      margin-left: 0; /* Adjust margin based on the collapsed sidebar width */
+      padding: 20px;
+      transition: margin-left 0.3s ease; /* Add smooth transition effect */
+    }
+
+    .collapse-btn {
+      position: fixed;
+      left: 10px;
+      top: 10px;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Button to toggle sidebar -->
+  <button class="btn btn-dark collapse-btn" onclick="toggleSidebar()">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <h5 class="sidebar-heading">Proposal Details</h5>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <a href="#" class="text-white">
+          <i class="fas fa-file-alt"></i> Overview
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="#" class="text-white">
+          <i class="fas fa-tasks"></i> Scope of Work
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="#" class="text-white">
+          <i class="fas fa-calendar-alt"></i> Timeline
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="#" class="text-white">
+          <i class="fas fa-dollar-sign"></i> Budget
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a href="#" class="text-white">
+          <i class="fas fa-file-contract"></i> Terms & Conditions
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content" id="main-content">
+    <h2>Welcome to Your Proposal</h2>
+    <p>This is the main content area where you can provide details about the proposal.</p>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const mainContent = document.getElementById('main-content');
+
+      sidebar.classList.toggle('show');
+      mainContent.classList.toggle('main-content-expanded');
+    }
+  </script>
+</body>
+</html>

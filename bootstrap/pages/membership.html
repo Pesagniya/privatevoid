@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head><script src="/assets/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>privatevoid - Assinatura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css" integrity="sha512-LX0YV/MWBEn2dwXCYgQHrpa9HJkwB+S+bnBpifSOTO1No27TqNMKYoAn6ff2FBh03THAzAiiCwQ+aPX+/Qt/Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+
+    <link rel="stylesheet" href="/components/colormode/colormode.css">
+    <link rel="stylesheet" href="/components/profile/profile.css">
+    <link rel="stylesheet" href="/components/navbar/navbar.css">
+
+    <style>
+body{margin-top:20px;}
+.single-pricing{
+background:#fff;
+padding:40px 20px;
+border-radius:5px;
+position:relative;
+z-index:2;
+border:1px solid #eee;
+box-shadow: 0 10px 40px -10px rgba(0,64,128,.09);
+transition:0.3s;
+}
+@media only screen and (max-width:480px) { 
+.single-pricing {margin-bottom:30px;}
+}
+.single-pricing:hover{
+box-shadow:0px 60px 60px rgba(0,0,0,0.1);
+z-index:100;
+transform: translate(0, -10px);
+}
+.price-label {
+    color: #fff;
+	background: #ffaa17;
+	font-size: 16px;
+	width: 100px;
+	margin-bottom: 15px;
+	display: block;
+	-webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+	clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+	margin-left: -20px;
+	position: absolute;
+}
+.price-head h2 {
+	font-weight: 600;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+	font-size: 26px;
+}
+.price-head span {
+	display: inline-block;
+	background:#ffaa17;
+	width: 6px;
+	height: 6px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.price {
+	font-weight: 500;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+.single-pricing h5 {
+	font-size: 14px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.single-pricing ul{
+list-style: none;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+
+.single-pricing ul li{line-height: 35px;}
+.single-pricing a {
+background:none;
+border: 2px solid #ffaa17;
+border-radius: 5000px;
+color: #ffaa17;
+display: inline-block;
+font-size: 16px;
+overflow: hidden;
+padding:10px 45px;
+text-transform: capitalize;
+transition: all 0.3s ease 0s;
+}
+.single-pricing a:hover, .single-pricing a:focus{
+background:#ffaa17;
+color:#fff;
+border: 2px solid #ffaa17;
+}
+.single-pricing-white{background: #232434}
+.single-pricing-white ul li{color:#fff;}
+.single-pricing-white h2{color:#fff;}
+.single-pricing-white h1{color:#fff;}
+.single-pricing-white h5{color:#fff;}
+    </style>
+</head>
+
+<body class="text-center">
+
+    <div id="navbar"></div>
+
+    <section id="pricing" class="pricing-content section-padding" style="margin-top: 100px; margin-bottom: 100px;">
+        <div class="container">					
+            <div class="section-title text-center">
+                <h1>Planos de Assinatura</h1>
+
+            </div>					
+            <div class="row text-center mt-5">									
+                <div class="col-lg-5 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+                    <div class="single-pricing">
+                        <div class="price-head">								
+                            <h2>Básico</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h1 class="price">Free</h1>
+                        <ul>
+                            <li><b>5</b> Projetos</li>
+                            <li><b>10</b> Propostas</li>
+                            <li>Atribuição de até 10 skills</li>
+                        </ul>
+                    </div>
+                </div><!--- END COL -->	
+                <div class="col-lg-6 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+                    <div class="single-pricing single-pricing-white">
+                        <div class="price-head">								
+                            <h2>Premium</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="price-label">Best</span>
+                        <h1 class="price">R$29,99</h1>
+                        <h5>Mensais</h5>
+                        <ul>
+                            <li>Maior visualização algorítmica</li>
+                            <li>Ícone diferenciado</li>
+                            <li>Projetos ilimitados</li>
+                            <li>Propostas ilimitados</li>
+                            <li>Atribuição de até 30 skills</li>
+                            <li>Recomendações via email</li>
+                            <li>UM GRANDE ABRAÇO</li>
+                        </ul>
+                        <a href="#" style="text-decoration: none; margin-left: 12px;">Assine já</a>
+                    </div>
+                </div><!--- END COL -->			  
+            </div><!--- END ROW -->
+        </div><!--- END CONTAINER -->
+    </section>
+
+    <div id="colormode"></div>
+
+    <div id="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      
+      <script> 
+        $(function(){
+            $("#navbar").load("/components/navbar/navbar.html"); 
+            $("#colormode").load("/components/colormode/colormode.html");
+            $("#footer").load("/components/footer/footer.html");
+        });
+    </script>
+</body>
+
+</html>
