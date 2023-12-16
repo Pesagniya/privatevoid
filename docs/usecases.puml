@@ -12,14 +12,11 @@ rectangle "Platform" {
     
     usecase "Publicate Profile" as publicateProfile
     usecase "Search Project History" as searchProjectHistory
-    usecase "Manifest Interest" as manifestInterest
-    usecase "Confirm Participation" as confirmParticipation
+    usecase "Communicate Terms" as manifestInterest
     
     usecase "Publicate Project" as publicateProject
     usecase "Rate Product" as rateProduct
-    
-    manifestInterest <.. confirmParticipation : <<extend>>
-    
+        
     admin --> manageCategory
     admin --> mediateDispute
     
