@@ -10,13 +10,10 @@ abstract class User {
 class Freelancer {
     status: boolean 
     membership: integer
-    category: String
 }
 
 class Chat {
     id: Long
-    time: timestamp
-    content: String
 }
 
 class Client {
@@ -24,8 +21,12 @@ class Client {
      membership: integer
 }
 
+class Notification {
+    type: MESSAGE | PROPOSAL | CANCEL | FINALIZE
+}
 
-class TechnologyType {
+
+class Skills {
     id: Long
     name: String
 }
@@ -33,8 +34,8 @@ class TechnologyType {
 
 class Project {
     id: Long
-    category: String
     date: LocalDate
+    dateMod: LocalDate
     endDate: LocalDate
     budget: Decimal
     status: WORKING | OPEN | CLOSED
@@ -52,10 +53,21 @@ class Rating {
     comment: String
 }
 
+class Category {
+    id: Long
+    name: String
+}
 
 class Language {
     id: Long
     name: String
+}
+
+class Message {
+    type: RECEIVE | SEND
+    content: String
+    time: timestamp
+
 }
 
 class Admin {
@@ -65,14 +77,21 @@ class Admin {
 User              <|--             Client
 User              <|--             Freelancer
 User              <|--             Admin
-Project      o--  "0.*"   TechnologyType
-Profile  o--  "0.*"   TechnologyType
+Project      o--  "0.*"   Skills
+Profile  o--  "0.*"   Skills
 Project "0..*"   -l-     "0..1"  Client            : has ->
 Project "0..*"   -r-     "0..*"  Freelancer      : <- has
 Freelancer *-- "0..1" Profile
 Freelancer "0..*"   -r-     "1..*"  Language           : has ->
 Profile o--> "0..*" Rating
-Project "0..1" -- "0..*" Rating
+Project "0..1" -- "0..1" Rating
 Chat "0..*"   --     "0..1"  Client
+Category "0..1"   --     "0..*"  Project
+Category "0..*"   --     "0..*"  Freelancer
+User o-u- "0..*"   Notification
 Chat "0..*"   --     "0..1"  Freelancer
+Chat "0..*"   --     "0..1"  Project
+Chat "0..1"   -l-     "0..*"  Notification
+Chat "0..1"   -u-     "0..*"  Message
+
 @enduml
